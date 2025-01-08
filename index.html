@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,20 +7,24 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header id="head">
-      <img src="/images/logo-white.svg" alt="ZealousWeb-Logo" id="logo" />
-      <nav id="menu">
+    <header class="head">
+      <a href="index.html">
+        <img src="/images/logo-white.svg" alt="ZealousWeb-Logo" class="logo" />
+      </a>
+      <nav class="menu">
         <ul>
-          <a href="#home">Home</a>
-        </ul>
-        <ul>
-          <a href="#about">About Us</a>
-        </ul>
-        <ul>
-          <a href="#servies">Services</a>
-        </ul>
-        <ul>
-          <a href="#contect">Contect Us</a>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About Us</a>
+          </li>
+          <li>
+            <a href="#servies">Services</a>
+          </li>
+          <li>
+            <a href="#contect">Contect Us</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -119,7 +123,7 @@
         </tbody>
       </table>
       <br />
-      <div id="media">
+      <div class="media">
         <img
           src="/images/amazon-dark-logo-png-transparent.png"
           alt="Amazon"
@@ -129,7 +133,7 @@
         ><br />
       </div>
       <br /><br />
-      <div style="display: flex; align-items: center; justify-content: center">
+      <div id="music">
         <audio src="/images/sample-6s.mp3" controls></audio>
       </div>
     </main>
@@ -137,7 +141,7 @@
     
     <form action="submit.txt">
       <fieldset>
-        <legend style="text-align: center">Get in Touch</legend>
+        <legend><u>Get in Touch</u></legend>
         <div class="form-group">
           <div class="form-field">
             <label for="fname">First Name:</label>
@@ -157,7 +161,7 @@
 
           <div class="form-field">
             <label for="call">Contact:</label>
-            <input type="number" id="call" name="contact" />
+            <input type="number" id="contact" name="call" />
           </div>
         </div>
         <div class="form-group">
@@ -176,11 +180,11 @@
       </fieldset>
     </form>
 
-    <br />
-    <footer id="footer">
+    <br />  
+    <footer class="footer">
       <nav id="contact">
-        <p>Contact : +919584525614</p>
-        <div id="flogo">
+        <a href="tel:+919652587495" class="phone">+919652587495</a>
+        <div class="flogo">
           <a href="https://www.zealousweb.com/">
             <img
               src="/images/logo-white.svg"
