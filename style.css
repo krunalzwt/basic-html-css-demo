@@ -163,6 +163,7 @@ legend{
 
 textarea{
   font-family: "Gill Sans MT Pro", Sans-serif;
+  width:95%;
 }
 
 #submit {
@@ -174,6 +175,7 @@ textarea{
   outline: none;
   margin-right: 0;
   color: white;
+  width:98%;
 }
 
 .footer {
@@ -202,6 +204,11 @@ textarea{
 .flogo a {
   position: relative;
   display: flex;
+}
+
+.flogo img{
+  height: 5rem;
+  width:9rem;
 }
 
 .flogo a::before,
