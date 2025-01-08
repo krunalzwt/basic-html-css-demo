@@ -163,7 +163,6 @@ legend{
 
 textarea{
   font-family: "Gill Sans MT Pro", Sans-serif;
-  width:95%;
 }
 
 #submit {
@@ -264,7 +263,7 @@ form {
 
 form input,
 form textarea {
-  width: 90%;
+
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
