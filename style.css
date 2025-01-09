@@ -320,7 +320,7 @@ legend {
   }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 768px) {
   .head {
     flex-direction: column;
     align-items: center;
