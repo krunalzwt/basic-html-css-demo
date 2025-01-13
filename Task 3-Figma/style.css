@@ -300,6 +300,7 @@ a{
 }
 
 @media (max-width:1078px){
+    
     .main-body{
         display: flex;
         flex-direction: column;
@@ -330,9 +331,20 @@ a{
     .flogo img{
         width: 25%;
     }
-    .navbar{
+    .main-header{
         display: flex;
-        text-align: center;
+        flex-direction: column;
+    }
+    .nav-bar{
+        
+        width: 115%;
+        /* display: flex; */
+    }
+    .nav-bar ul{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
     .heading-2{
         display: flex;
@@ -345,9 +357,6 @@ a{
     }
     .main-title{
         padding-left: 3%;
-    }
-    .nav-bar{
-        display: none;
     }
     .title-2 h1{
         font-size: 2rem;
@@ -408,6 +417,13 @@ a{
     .logo{
         width: 100%;
     }
+    .layer p{
+        text-align: left;
+    }
+    .navbar nav ul{
+        text-align: center;
+        
+    }
 }
 @media (min-width:1079px) and (max-width:1647px){
 
@@ -454,24 +470,3 @@ a{
     }
     
 }
-
-
-/* 
-@media screen and (max-width:1648px){
-
-    .main-body{
-        display: flex;
-        justify-content: column;
-    }
-
-    .about-2{
-        width:100%;
-    }
-    .cards{
-        width:100%;
-    }
-
-    
-
-    
-} */
