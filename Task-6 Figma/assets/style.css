@@ -38,7 +38,7 @@
 .nav-pic {
   display: flex;
   align-items: center;
-  padding: 24px;
+  padding: 1.5rem;
 }
 
 .nav-pic a {
@@ -50,7 +50,7 @@
   list-style: none;
   display: flex;
   flex-direction: row;
-  gap: 28px;
+  gap: 1.75rem;
 }
 
 .nav ul li a {
@@ -70,9 +70,9 @@ a {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -2px;
+  bottom: -0.125rem;
   width: 100%;
-  height: 2px;
+  height: 0.125rem;
   transform: scaleX(0);
   transition: transform 0.3s ease;
 }
@@ -97,7 +97,7 @@ a {
   flex-direction: row;
   width: 100%;
   align-items: center;
-  padding: 20px 0 20px 0;
+  padding: 1.25rem 0 1.25rem 0;
 }
 
 .section-1 {
@@ -118,23 +118,23 @@ a {
 
 .btn button {
   border-color: var(--primary-color);
-  border-radius: 4px;
-  padding: 12px 18px 12px 18px;
+  border-radius: 0.25rem;
+  padding: 0.75rem 1.125rem 0.75rem 1.125rem;
 }
 
 .btn-1 button {
-  border: 1px solid transparent;
+  border: 0.0625rem solid transparent;
   background-color: var(--primary-color);
   color: white;
 }
 .btn-1 button:hover{
     background-color: #F0F0F0;
     color:var(--primary-color);
-    border: 1px solid #cdd3dc;
+    border: 0.0625rem solid #cdd3dc;
 }
 .btn-2 button {
   color: var(--primary-color);
-  border: 1px solid #cdd3dc;
+  border: 0.0625rem solid #cdd3dc;
 }
 
 .main-1 {
@@ -196,14 +196,14 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  margin-bottom: 80px;
+  margin-bottom: 5rem;
 }
 
 .card {
   width: 20.75rem;
-  border: 1px solid #e1e4ed;
-  box-shadow: 0 1px 4px 0 #19213d14;
-  border-radius: 8px;
+  border: 0.0625rem solid #e1e4ed;
+  box-shadow: 0 0.0625rem 0.25rem 0 #19213d14;
+  border-radius: 0.5rem;
   height: 25.2rem;
 }
 
@@ -211,12 +211,12 @@ a {
   display: flex;
   flex-direction: column;
   margin: 1.5rem;
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 .card-img img {
   width: 20.75rem;
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 0.625rem 0.625rem;
 }
 
 .card-title h5 {
@@ -240,9 +240,9 @@ a {
 /* form styles */
 
 .form-group {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  gap: 40px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  gap: 2.5rem;
   width: 38.75rem;
   display: flex;
   flex-direction: column;
@@ -251,8 +251,8 @@ a {
 
 .content-group {
   display: flex;
-  gap: 12px;
-  padding-bottom: 16px;
+  gap: 0.75rem;
+  padding-bottom: 1rem;
 }
 
 .content-group input {
@@ -271,12 +271,12 @@ textarea::placeholder {
 
 textarea {
   width: 100%;
-  padding: 16px;
+  padding: 1rem;
   color: var(--primary-color);
 }
 
 .contact-form-header h2 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: var(--font-weight-max);
   color: var(--primary-color);
 }
@@ -302,9 +302,9 @@ textarea {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  gap: 24px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  gap: 1.5rem;
 }
 
 .action-header h2 {
@@ -314,15 +314,15 @@ textarea {
 
 .action-dec p {
   font-weight: var(--font-weigh-min);
-  line-height: 24px;
+  line-height: 1.5rem;
 }
 
 .action-btn button {
-  border: 1px solid transparent;
-  border-radius: 4px;
+  border: 0.0625rem solid transparent;
+  border-radius: 0.25rem;
   background-color: #ffffff;
-  padding: 15px 18px 15px 18px;
-  font-size: 14px;
+  padding: 0.9375rem 1.125rem 0.9375rem 1.125rem;
+  font-size: 0.875rem;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -330,7 +330,7 @@ textarea {
   height: 2.5rem;
 }
 .action-btn button:hover{
-    border: 1px solid #FFFFFF;
+    border: 0.0625rem solid #FFFFFF;
     background-color:var(--primary-color);
     color:#f9f9f9;
 }
@@ -340,11 +340,11 @@ textarea {
 .main-footer {
   display: flex;
   flex-direction: row;
-  margin-top: 70px;
+  margin-top: 4.375rem;
   justify-content: space-between;
 }
 .footer {
-  gap: 72px;
+  gap: 4.5rem;
   display: flex;
   justify-content: space-between;
 }
@@ -354,7 +354,7 @@ textarea {
 .left-footer {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 1.5rem;
   width: 50%;
 }
 
@@ -367,21 +367,21 @@ textarea {
 }
 
 .footer-logo img {
-  width: 128px;
+  width: 8rem;
 }
 
 .footer-2 {
   display: flex;
   flex-direction: row;
-  gap: 32px;
+  gap: 2rem;
   width: auto;
 }
 
 .t-div ul li {
   list-style: none;
   width: 7.4375rem;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   font-weight: 500;
   color: var(--primary-color);
 }
@@ -395,14 +395,14 @@ textarea {
   display: flex;
   gap: 2rem;
   flex-direction: column;
-  padding-bottom: 32px;
+  padding-bottom: 2rem;
 }
 
 .t-title {
   color: #6d758f;
   /* font-family: 'Inter'; */
   font-weight: var(--font-weight-max);
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .footer-dec {
@@ -414,16 +414,16 @@ textarea {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  border-top: 1px solid #e1e4ed;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-top: 0.0625rem solid #e1e4ed;
 }
 
 .part-1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 5px;
+  gap: 0.3125rem;
 }
 .part-1 p {
   color: #b4b9c9;
@@ -451,12 +451,12 @@ button {
 }
 .open-menu {
   top: 50%;
-  right: 20px;
+  right: 1.25rem;
   transform: translateY(-50%);
 }
 .close-menu {
-  top: 20px;
-  right: 20px;
+  top: 1.25rem;
+  right: 1.25rem;
 }
 #check {
   display: none;
@@ -468,18 +468,18 @@ button {
 
 /* media queries */
 
-@media (max-width: 1300px) {
+@media (max-width: 81.25rem) {
   .container {
-    padding: 20px;
+    padding: 1.25rem;
   }
 }
 
-@media (max-width: 912px) {
+@media (max-width: 57rem) {
   .main-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
   }
   .left-footer-content {
     align-items: center;
@@ -494,7 +494,7 @@ button {
   }
 }
 
-@media (max-width: 777px) {
+@media (max-width: 48.5625rem) {
   .part-2 {
     width: 100%;
     text-align: center;
@@ -502,7 +502,7 @@ button {
   }
 }
 
-@media (max-width: 736px) {
+@media (max-width: 46rem) {
   .card {
     height: 22rem;
     width: 15rem;
@@ -532,8 +532,8 @@ button {
     width: 100%;
   }
   .footer-2 {
-    gap: 0px;
-    font-size: 10px;
+    gap: 0rem;
+    font-size: 0.625rem;
     text-align: center;
   }
   .action-dec {
@@ -552,10 +552,10 @@ button {
   .banner-1 {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.25rem;
   }
   .title-1 h1 {
-    font-size: 25px;
+    font-size: 1.5625rem;
     line-height: normal;
     text-align: center;
   }
@@ -587,7 +587,7 @@ button {
     justify-content: center;
   }
   .main-footer {
-    gap: 100px;
+    gap: 6.25rem;
   }
 
   .section-1{
@@ -626,11 +626,11 @@ button {
     justify-content: center;
   }
   .menu li {
-    margin-top: 40px;
+    margin-top: 2.5rem;
     list-style: none;
   }
   .menu li a {
-    padding: 10px;
+    padding: 0.625rem;
     text-decoration: none;
     color: #ffffff;
   }
